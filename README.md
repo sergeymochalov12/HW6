@@ -1,6 +1,6 @@
 
 Базовое задние:
-1) Переписать код в соответствии с Single Responsibility Principle:
+### 1) Переписать код в соответствии с Single Responsibility Principle:
  
 ```agsl
 
@@ -60,7 +60,7 @@ return baseSalary - tax;
 ```
 
 
-2) Переписать код SpeedCalculation в соответствии с Open-Closed Principle:
+### 2) Переписать код SpeedCalculation в соответствии с Open-Closed Principle:
    ```agsl
 
    public class SpeedCalculation {
@@ -114,7 +114,7 @@ return baseSalary - tax;
 ```  
     
    
-3) Переписать код в соответствии с Interface Segregation Principle:
+### 3) Переписать код в соответствии с Interface Segregation Principle:
 ```agsl
    public interface Shape {
    double area();
@@ -186,10 +186,7 @@ return edge * edge * edge;
 }
 ```
 
- 
- 
- Задачи со *(подсказок нет!, это же сложные задания)
-4) Переписать код в соответствии с Liskov Substitution Principle:
+### 4) Переписать код в соответствии с Liskov Substitution Principle:
 ```agsl
 
 
@@ -236,7 +233,7 @@ public class Rectangle {
 
 
 
-5) Переписать код в соответствии с Dependency Inversion Principle:
+### 5) Переписать код в соответствии с Dependency Inversion Principle:
 ```agsl
 
    public class Car {
